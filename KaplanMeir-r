@@ -9,3 +9,6 @@ plot(survfit(surv(days, status==1)~1, data=cdata))
 
 survdiff(Surv(days, status==1)~sex, data=cdata))
 plot(survdiff(Surv(days, status==1)~sex, data=cdata)), conf.int=TRUE)
+
+**I'm just going to put this here, so that it is clearer that
+THIS is the most recent version of the code.**
