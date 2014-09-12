@@ -12,3 +12,5 @@ plot(survdiff(Surv(days, status==1)~sex, data=cdata)), conf.int=TRUE)
 
 **I'm just going to put this here, so that it is clearer that
 THIS is the most recent version of the code.**
+
+**end practice code**
