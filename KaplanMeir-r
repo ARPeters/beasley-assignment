@@ -1,0 +1,7 @@
+**practice code**
+
+library(survival)
+
+
+cdata<-cancer
+summary(survfit(surv(days, status==1)~1, data=cdata)))
